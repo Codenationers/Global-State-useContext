@@ -5,6 +5,7 @@ import Theme from "./Theme";
 import UsernameInput from "./UsernameInput";
 
 function App() {
+  //declaring state, then passing it through to context provider on line 13
   const [theme, setTheme] = useState("light");
   const [username, setUsername] = useState("Tracy");
 
